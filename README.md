@@ -21,7 +21,7 @@ Ingest
 Clean
         |
         v
-Validate
+     Validate
    |          |
  FAIL        PASS
    |          |
@@ -29,7 +29,7 @@ Validate
  STOP     Save processed CSV
               |
               v
-        Train Logistic Regression
+          Train model
               |
               v
         Save trained model
